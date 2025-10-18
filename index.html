@@ -5,30 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saung Wai Wai Phyo Fashion - မြိတ်</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
-            background: linear-gradient(135deg, #F0F8FF 0%, #E6F3FF 50%, #FFFFFF 100%);
-            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background: linear-gradient(135deg, #F0F8FF 0%, #E6F3FF 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             min-height: 100vh;
             padding: 20px;
             display: flex;
             justify-content: center;
             align-items: center;
         }
+
         .container {
             max-width: 400px;
             width: 100%;
-            background: rgba(255, 255, 255, 0.95);
+            background: white;
             border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(30, 144, 255, 0.1);
+            box-shadow: 0 10px 30px rgba(30, 144, 255, 0.2);
             overflow: hidden;
         }
+
         .profile-section {
             text-align: center;
             padding: 30px 20px;
             background: linear-gradient(135deg, #1E90FF 0%, #87CEEB 100%);
             color: white;
         }
+
         .profile-frame {
             width: 120px;
             height: 120px;
@@ -41,31 +49,38 @@
             align-items: center;
             font-size: 40px;
         }
+
         .brand-name {
             font-size: 24px;
             font-weight: bold;
             margin-bottom: 5px;
         }
+
         .tagline {
             font-size: 14px;
             opacity: 0.9;
             margin-bottom: 15px;
         }
+
         .badges {
             display: flex;
             justify-content: center;
             gap: 8px;
             flex-wrap: wrap;
         }
+
         .badge {
-            background: rgba(255, 255, 255, 0.2);
-            padding: 4px 12px;
+            background: rgba(255, 255, 255, 0.3);
+            padding: 5px 12px;
             border-radius: 15px;
             font-size: 12px;
+            backdrop-filter: blur(10px);
         }
+
         .links-section {
             padding: 20px;
         }
+
         .link-button {
             display: flex;
             align-items: center;
@@ -73,37 +88,44 @@
             color: #2F4F4F;
             padding: 15px;
             margin: 10px 0;
-            border-radius: 15px;
+            border-radius: 12px;
             text-decoration: none;
             border: 2px solid #F0F8FF;
             transition: all 0.3s ease;
             box-shadow: 0 2px 10px rgba(30, 144, 255, 0.1);
         }
+
         .link-button:hover {
             transform: translateY(-2px);
             border-color: #1E90FF;
+            box-shadow: 0 5px 15px rgba(30, 144, 255, 0.2);
         }
+
         .link-button .icon {
             font-size: 20px;
             margin-right: 15px;
             width: 24px;
             text-align: center;
         }
+
         .link-button .text {
             flex: 1;
             text-align: left;
             font-weight: 600;
         }
+
         .link-button .arrow {
             color: #1E90FF;
             font-weight: bold;
         }
+
         .footer {
             background: #F8F9FA;
             padding: 15px 20px;
             text-align: center;
             border-top: 1px solid #E9ECEF;
         }
+
         .footer p {
             font-size: 12px;
             color: #6C757D;
@@ -118,6 +140,51 @@
             <h1 class="brand-name">Saung Wai Wai Phyo</h1>
             <p class="tagline">မြိတ်မှ အရည်အသွေးကောင်း အဝတ်အစားများ</p>
             <div class="badges">
+                <span class="badge">👗 Fashion</span>
+                <span class="badge">🌊 Sea View</span>
+                <span class="badge">📞 Video Call</span>
+            </div>
+        </div>
+
+        <div class="links-section">
+            <a href="https://wa.me/09674694177?text=ဆိုင်မှာ အဝတ်အစား ဝယ်ချင်ပါတယ်" class="link-button">
+                <span class="icon">📱</span>
+                <span class="text">WhatsApp Order</span>
+                <span class="arrow">→</span>
+            </a>
+
+            <a href="https://www.tiktok.com/@saungwaiwaiphyo" class="link-button">
+                <span class="icon">🎵</span>
+                <span class="text">TikTok Profile</span>
+                <span class="arrow">→</span>
+            </a>
+
+            <a href="https://docs.google.com/spreadsheets/" class="link-button">
+                <span class="icon">💰</span>
+                <span class="text">Price List</span>
+                <span class="arrow">→</span>
+            </a>
+
+            <a href="tel:09674694177" class="link-button">
+                <span class="icon">📞</span>
+                <span class="text">Call Now</span>
+                <span class="arrow">→</span>
+            </a>
+
+            <a href="https://maps.app.goo.gl/" class="link-button">
+                <span class="icon">📍</span>
+                <span class="text">Location Map</span>
+                <span class="arrow">→</span>
+            </a>
+        </div>
+
+        <div class="footer">
+            <p>🚚 မြိတ်အတွင်း Delivery Available</p>
+            <p>⏰ 9:00 AM - 8:00 PM</p>
+        </div>
+    </div>
+</body>
+</html>            <div class="badges">
                 <span class="badge">👗 Fashion</span>
                 <span class="badge">🌊 Sea View</span>
                 <span class="badge">📞 Video Call</span>
